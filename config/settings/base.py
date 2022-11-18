@@ -44,7 +44,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 DATABASES = {
     "default": env.db(
         "DATABASE_URL",
-        default="postgres://localhost/insta",
+        default="postgres://postgres:ff136677!!@localhost:5432/insta",
     ),
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
